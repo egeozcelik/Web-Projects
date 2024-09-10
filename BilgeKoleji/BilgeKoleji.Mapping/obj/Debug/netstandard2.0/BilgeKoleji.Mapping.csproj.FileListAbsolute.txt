@@ -1,0 +1,16 @@
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.Mapping\bin\Debug\netstandard2.0\BilgeKoleji.Mapping.deps.json
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.Mapping\bin\Debug\netstandard2.0\BilgeKoleji.Mapping.dll
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.Mapping\bin\Debug\netstandard2.0\BilgeKoleji.Mapping.pdb
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.Mapping\bin\Debug\netstandard2.0\BilgeKoleji.Core.dll
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.Mapping\bin\Debug\netstandard2.0\BilgeKoleji.DTO.dll
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.Mapping\bin\Debug\netstandard2.0\BilgeKoleji.Model.dll
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.Mapping\bin\Debug\netstandard2.0\BilgeKoleji.DTO.pdb
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.Mapping\bin\Debug\netstandard2.0\BilgeKoleji.Model.pdb
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.Mapping\bin\Debug\netstandard2.0\BilgeKoleji.Core.pdb
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.Mapping\obj\Debug\netstandard2.0\BilgeKoleji.Mapping.csprojAssemblyReference.cache
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.Mapping\obj\Debug\netstandard2.0\BilgeKoleji.Mapping.AssemblyInfoInputs.cache
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.Mapping\obj\Debug\netstandard2.0\BilgeKoleji.Mapping.AssemblyInfo.cs
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.Mapping\obj\Debug\netstandard2.0\BilgeKoleji.Mapping.csproj.CoreCompileInputs.cache
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.Mapping\obj\Debug\netstandard2.0\BilgeKoleji.Mapping.csproj.CopyComplete
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.Mapping\obj\Debug\netstandard2.0\BilgeKoleji.Mapping.dll
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.Mapping\obj\Debug\netstandard2.0\BilgeKoleji.Mapping.pdb

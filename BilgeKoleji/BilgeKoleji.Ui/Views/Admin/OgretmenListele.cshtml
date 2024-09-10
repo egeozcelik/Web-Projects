@@ -1,0 +1,65 @@
+﻿@model OgretmenListModel
+@{
+    ViewData["Title"] = "OgretmenListele";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>OgretmenListele</h2>
+
+
+<div class="portlet-body">
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th> # </th>
+                    <th> TCK</th>
+                    <th> ADI</th>
+                    <th> SOYADI</th>
+
+                    <th> YAS</th>
+                    @*<th> CİNSİYET</th>*@
+                    <th> TELEFON NO:</th>
+                    <th> MAİL:</th>
+                    <th> BRANS</th>
+                    <th></th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (BilgeKoleji.DTO.OgretmenDTO ogr in Model.Ogretmen)
+                {
+                    <tr>
+                        <th> @ogr.Id </th>
+                        <th> @ogr.TCK </th>
+                        <th> @ogr.Adi</th>
+                        <th> @ogr.Soyadi</th>
+
+
+                        <th> @ogr.Yas</th>
+                        @*<th> @ogr.Cinsiyet</th>*@
+                        <th> @ogr.Phone</th>
+                        <th> @ogr.Mail</th>
+                        <th> @Model.DersDTOs.FirstOrDefault(z => z.Id == ogr.DersId).Adi</th>
+
+
+                        <td>
+
+                            <a class="btn btn-danger btn-sm" asp-action="OgretmenSil" asp-route-id="@ogr.Id">Sil</a>
+
+                            <a class="btn btn-success btn-sm" asp-action="OgretmenDuzenle" asp-route-id="@ogr.Id">Düzenle</a>
+
+                        </td>
+                    </tr>
+                }
+
+
+
+
+
+            </tbody>
+           
+        </table>
+    </div>
+</div>  

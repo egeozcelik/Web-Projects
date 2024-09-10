@@ -1,0 +1,48 @@
+﻿@model DersModel
+@{
+    ViewData["Title"] = "DersListele";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>DersListele</h2>
+@*foreach ile 1 tanesini dön*@
+
+<div class="portlet-body">
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th> # </th>
+                    <th> ADI</th>
+                    <th> İŞLENDİĞİ SINIF</th>
+                  
+                    <th></th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (BilgeKoleji.DTO.DersDTO ogr in Model.DersDTOs)
+                {
+                    <tr>
+                        <th> @ogr.Id </th>
+                        <th> @ogr.Adi</th>
+                        <th> @Model.SinifDTOs.FirstOrDefault(z=>z.Id == ogr.SinifId).Adi</th>
+                   
+
+
+                        <td>
+
+                            <a class="btn btn-danger btn-sm" asp-action="DersSil" asp-route-id="@ogr.Id">Sil</a>
+
+                            <a class="btn btn-success btn-sm" asp-action="DersDuzenle" asp-route-id="@ogr.Id">Düzenle</a>
+
+                        </td>
+                    </tr>
+                }
+
+
+            </tbody>
+        </table>
+    </div>
+</div>

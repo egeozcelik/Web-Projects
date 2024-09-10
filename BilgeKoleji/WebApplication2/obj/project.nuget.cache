@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "fUgURT+IJG9mz3albtnWnxzq4odYD0+fLoPyLhxP+SzdnVfT0xQc/PrFyd3UJrHvmb8ua6VXXAfO8Kasu4C73w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ege\\source\\repos\\BilgeKoleji\\WebApplication2\\WebApplication2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ege\\.nuget\\packages\\microsoft.net.sdk.razor\\3.1.6\\microsoft.net.sdk.razor.3.1.6.nupkg.sha512",
+    "C:\\Users\\Ege\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

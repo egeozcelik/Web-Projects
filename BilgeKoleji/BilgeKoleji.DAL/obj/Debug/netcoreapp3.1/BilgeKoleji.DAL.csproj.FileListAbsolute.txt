@@ -1,0 +1,17 @@
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.DAL\bin\Debug\netcoreapp3.1\BilgeKoleji.DAL.deps.json
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.DAL\bin\Debug\netcoreapp3.1\BilgeKoleji.DAL.runtimeconfig.json
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.DAL\bin\Debug\netcoreapp3.1\BilgeKoleji.DAL.runtimeconfig.dev.json
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.DAL\bin\Debug\netcoreapp3.1\BilgeKoleji.DAL.dll
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.DAL\bin\Debug\netcoreapp3.1\BilgeKoleji.DAL.pdb
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.DAL\bin\Debug\netcoreapp3.1\BilgeKoleji.Core.dll
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.DAL\bin\Debug\netcoreapp3.1\BilgeKoleji.Model.dll
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.DAL\bin\Debug\netcoreapp3.1\BilgeKoleji.Model.pdb
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.DAL\bin\Debug\netcoreapp3.1\BilgeKoleji.Core.pdb
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.DAL\obj\Debug\netcoreapp3.1\BilgeKoleji.DAL.csprojAssemblyReference.cache
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.DAL\obj\Debug\netcoreapp3.1\BilgeKoleji.DAL.AssemblyInfoInputs.cache
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.DAL\obj\Debug\netcoreapp3.1\BilgeKoleji.DAL.AssemblyInfo.cs
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.DAL\obj\Debug\netcoreapp3.1\BilgeKoleji.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.DAL\obj\Debug\netcoreapp3.1\BilgeKoleji.DAL.csproj.CopyComplete
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.DAL\obj\Debug\netcoreapp3.1\BilgeKoleji.DAL.dll
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.DAL\obj\Debug\netcoreapp3.1\BilgeKoleji.DAL.pdb
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.DAL\obj\Debug\netcoreapp3.1\BilgeKoleji.DAL.genruntimeconfig.cache

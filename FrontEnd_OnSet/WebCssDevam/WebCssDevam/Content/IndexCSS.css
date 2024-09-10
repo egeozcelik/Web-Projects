@@ -1,0 +1,70 @@
+﻿.hebele {
+    height: 50%;
+    width: 200px;
+    max-height: 100px;
+    /*
+        Noktalı kenar
+        border: 1px dotted;
+        
+        Kesikli Çızık
+        border: 1px dashed;
+
+        Düz çizgi 
+        border: 1px solid;
+
+        Çızıksız 
+        border: 1px none;
+
+        Kenarlık olsun ama görünmesin
+        border: 1px hidden;
+
+        her Kenarı farklı yap
+        border-style: dotted dashed solid none;
+
+    */
+    border: 1px solid;
+    /*border-style: dotted dashed solid none;*/
+    /*padding-top: 150px;*/
+}
+
+#icerik {
+    /*margin-top: 150px;
+    margin-left:30px;*/
+}
+
+#lorem {
+    /*text-align: center;*/
+    /*text-align: left;*/
+    /*text-align: right;*/
+    text-align: justify;
+}
+
+#hurufat {
+    /*  
+        Altına ustune cızık
+        text-decoration: underline;
+        text-decoration: line-through;
+    */
+    /*
+        Buyuk kucuk donusum
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    */
+    /*Satır başı
+    text-indent:50px;*/
+    /*karakterler arası boşluk
+    letter-spacing:10px;*/
+    /*Satırlar arası boşluık
+    line-height: 2px;*/
+    /*text-shadow : 3px 2px blue;*/
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 10vw;
+}
+
+a {
+    color: hotpink;
+    text-decoration:none;
+    background-color:aqua;
+}

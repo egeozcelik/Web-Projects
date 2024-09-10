@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tLa8h21VPUudWneIpf1Xxw57PY8zpphkjs2dJihdHDr1+jzfLoSAWWfOR8nnqAfRgK4f3UFM7vQMR55lFSwxyg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ege\\source\\repos\\BilgeKoleji\\DENEME\\DENEME.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ege\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,8 @@
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.Core\bin\Debug\netstandard2.0\BilgeKoleji.Core.deps.json
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.Core\bin\Debug\netstandard2.0\BilgeKoleji.Core.dll
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.Core\bin\Debug\netstandard2.0\BilgeKoleji.Core.pdb
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.Core\obj\Debug\netstandard2.0\BilgeKoleji.Core.AssemblyInfoInputs.cache
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.Core\obj\Debug\netstandard2.0\BilgeKoleji.Core.AssemblyInfo.cs
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.Core\obj\Debug\netstandard2.0\BilgeKoleji.Core.csproj.CoreCompileInputs.cache
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.Core\obj\Debug\netstandard2.0\BilgeKoleji.Core.dll
+C:\Users\Ege\source\repos\BilgeKoleji\BilgeKoleji.Core\obj\Debug\netstandard2.0\BilgeKoleji.Core.pdb

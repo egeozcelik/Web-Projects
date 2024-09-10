@@ -1,0 +1,45 @@
+﻿@model EgeBlogSite.Entity.User
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+<form action="/Users/Edit" method="post">
+    <div class="jumbotron bg-warning">
+        <h1>Üye Güncelle   </h1>
+        <div class="form-row" style="margin-top:25px; margin-bottom:25px; ">
+            @Html.HiddenFor(z=>z.Id)
+            <div class="form-group col-md-6">
+                <label for="inputEmail4">Ad:</label>
+                @Html.TextBoxFor(z => z.Name, null, new { @class = "form-control" })
+
+
+                @*<input type="email" class="form-control" id="inputEmail4">*@
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputPassword4">Soyad:</label>
+                @Html.TextBoxFor(z => z.Surname, null, new { @class = "form-control" })
+
+                @*<input type="text" class="form-control" id="inputPassword4">*@
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6 ">
+                <label for="inputAddress">Password:</label>
+                @Html.TextBoxFor(z => z.Password, null, new { @class = "form-control", placeholder = "Password", @type = "password" })
+
+
+                @*<input type="text" class="form-control" id="inputAddress" placeholder="birisi@example">*@
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputAddress2">Mail: </label>
+                @Html.TextBoxFor(z => z.Email, null, new { @class = "form-control" })
+
+                @*<input type="text" class="form-control" id="inputAddress2" placeholder="yyyy-aa-gg">*@
+            </div>
+
+        </div>
+        <button type="submit" class="btn btn-primary">Güncelle</button>
+    </div>
+</form>

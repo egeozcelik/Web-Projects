@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.0\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.0\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{67753508-92FE-4405-9D9D-F76DAB8DAAF9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EgeBlogSite.DAL</RootNamespace>
+    <AssemblyName>EgeBlogSite.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BlogSiteEntities.cs" />
+    <Compile Include="Migrations\202003081422347_initialize.cs" />
+    <Compile Include="Migrations\202003081422347_initialize.designer.cs">
+      <DependentUpon>202003081422347_initialize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003092133049_foreignkeysiz.cs" />
+    <Compile Include="Migrations\202003092133049_foreignkeysiz.designer.cs">
+      <DependentUpon>202003092133049_foreignkeysiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003092141507_SonHal.cs" />
+    <Compile Include="Migrations\202003092141507_SonHal.designer.cs">
+      <DependentUpon>202003092141507_SonHal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003092158074_SonHalDEğil.cs" />
+    <Compile Include="Migrations\202003092158074_SonHalDEğil.designer.cs">
+      <DependentUpon>202003092158074_SonHalDEğil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003092209104_buhicsondegil.cs" />
+    <Compile Include="Migrations\202003092209104_buhicsondegil.designer.cs">
+      <DependentUpon>202003092209104_buhicsondegil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003092211341_budadegilbence.cs" />
+    <Compile Include="Migrations\202003092211341_budadegilbence.designer.cs">
+      <DependentUpon>202003092211341_budadegilbence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003092243367_olmayacakgibi.cs" />
+    <Compile Include="Migrations\202003092243367_olmayacakgibi.designer.cs">
+      <DependentUpon>202003092243367_olmayacakgibi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003092249371_denemeyedevaM.cs" />
+    <Compile Include="Migrations\202003092249371_denemeyedevaM.designer.cs">
+      <DependentUpon>202003092249371_denemeyedevaM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003092305335_saldım.cs" />
+    <Compile Include="Migrations\202003092305335_saldım.designer.cs">
+      <DependentUpon>202003092305335_saldım.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003092308218_salamıyorum.cs" />
+    <Compile Include="Migrations\202003092308218_salamıyorum.designer.cs">
+      <DependentUpon>202003092308218_salamıyorum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003092313264_devanke.cs" />
+    <Compile Include="Migrations\202003092313264_devanke.designer.cs">
+      <DependentUpon>202003092313264_devanke.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003101108116_bufarklıbisi.cs" />
+    <Compile Include="Migrations\202003101108116_bufarklıbisi.designer.cs">
+      <DependentUpon>202003101108116_bufarklıbisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003102116538_datetimesiz.cs" />
+    <Compile Include="Migrations\202003102116538_datetimesiz.designer.cs">
+      <DependentUpon>202003102116538_datetimesiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003120105504_allahutandırmasın.cs" />
+    <Compile Include="Migrations\202003120105504_allahutandırmasın.designer.cs">
+      <DependentUpon>202003120105504_allahutandırmasın.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003120107409_allahutandırmasın2.cs" />
+    <Compile Include="Migrations\202003120107409_allahutandırmasın2.designer.cs">
+      <DependentUpon>202003120107409_allahutandırmasın2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EgeBlogSite.Entity\EgeBlogSite.Entity.csproj">
+      <Project>{BEDE4E9F-66C5-4970-A04D-536AD5BEB320}</Project>
+      <Name>EgeBlogSite.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202003081422347_initialize.resx">
+      <DependentUpon>202003081422347_initialize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003092133049_foreignkeysiz.resx">
+      <DependentUpon>202003092133049_foreignkeysiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003092141507_SonHal.resx">
+      <DependentUpon>202003092141507_SonHal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003092158074_SonHalDEğil.resx">
+      <DependentUpon>202003092158074_SonHalDEğil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003092209104_buhicsondegil.resx">
+      <DependentUpon>202003092209104_buhicsondegil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003092211341_budadegilbence.resx">
+      <DependentUpon>202003092211341_budadegilbence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003092243367_olmayacakgibi.resx">
+      <DependentUpon>202003092243367_olmayacakgibi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003092249371_denemeyedevaM.resx">
+      <DependentUpon>202003092249371_denemeyedevaM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003092305335_saldım.resx">
+      <DependentUpon>202003092305335_saldım.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003092308218_salamıyorum.resx">
+      <DependentUpon>202003092308218_salamıyorum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003092313264_devanke.resx">
+      <DependentUpon>202003092313264_devanke.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003101108116_bufarklıbisi.resx">
+      <DependentUpon>202003101108116_bufarklıbisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003102116538_datetimesiz.resx">
+      <DependentUpon>202003102116538_datetimesiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003120105504_allahutandırmasın.resx">
+      <DependentUpon>202003120105504_allahutandırmasın.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003120107409_allahutandırmasın2.resx">
+      <DependentUpon>202003120107409_allahutandırmasın2.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.0\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.0\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.0\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.0\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.0\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.0\build\EntityFramework.targets')" />
+</Project>

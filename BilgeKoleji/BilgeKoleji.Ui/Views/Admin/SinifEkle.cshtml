@@ -1,0 +1,99 @@
+﻿@model BilgeKoleji.DTO.SinifDTO
+@{
+    ViewData["Title"] = "SinifEkle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>SinifEkle</h2>
+
+<section class="page-header">
+    <div class="container">
+
+        <!-- Start of Page Title -->
+        <div class="row">
+            <div class="col-md-12">
+                <h2>YENİ SINIF</h2>
+            </div>
+        </div>
+        <!-- End of Page Title -->
+        <!-- Start of Breadcrumb -->
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="breadcrumb">
+                </ul>
+            </div>
+        </div>
+        <!-- End of Breadcrumb -->
+
+    </div>
+</section>
+
+<section class="ptb80" id="register">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+                <!-- Start of Nav Tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+
+                    <!-- Personal Account Tab -->
+                    <li role="presentation" class="active">
+                        <a href="#personal" aria-controls="personal" role="tab" data-toggle="tab" aria-expanded="true">
+                            <h6>Öğrenci Ekle</h6>
+
+                        </a>
+                    </li>
+
+                    <!-- Company Account Tab -->
+
+                </ul>
+                <!-- End of Nav Tabs -->
+                <!-- Start of Tab Content -->
+                <div class="tab-content ptb60">
+                    <form asp-action="SinifEkle" method="post" enctype="multipart/form-data">
+                        <div class="form-body">
+
+                            <div class="form-group">
+                                <!-- Start of Tabpanel for Personal Account -->
+                                <div role="tabpanel" class="tab-pane active" id="personal">
+                                    <div class="row">
+                                        <div class="col-md-8 col-md-offset-2">
+
+                                            <!-- Form Group -->
+                                            <div class="form-group">
+                                                <label>Adı: </label>
+                                                <input type="text" class="form-control" asp-for="Adi">
+                                            </div>
+
+                                            <!-- Form Group -->
+                                            <div class="form-group">
+                                                <label>Kontenjan:</label>
+                                                <input type="text" class="form-control" asp-for="Kontenjan">
+                                            </div>
+
+
+
+
+                                            <!-- Form Group -->
+                                            <div class="form-group text-center nomargin">
+                                                <button type="submit" class="btn btn-blue btn-effect">Sınıfı Kaydet</button>
+                                                
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- End of Tabpanel for Personal Account -->
+                    <!-- Start of Tabpanel for Company Account -->
+                    <!-- End of Tabpanel for Company Account -->
+
+                </div>
+                <!-- End of Tab Content -->
+
+            </div>
+        </div>
+    </div>
+</section>

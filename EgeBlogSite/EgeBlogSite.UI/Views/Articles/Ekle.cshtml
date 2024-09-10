@@ -1,0 +1,68 @@
+﻿@model EgeBlogSite.UI.Models.ViewModel
+@{
+    ViewBag.Title = "Ekle";
+}
+    <style>
+        #textarea{
+            width:1200px;
+        }
+    </style>
+<h2>Ekle</h2>
+
+<form action="/Articles/Ekle" method="post">
+    <div class="form-group">
+        <label>Makale Başlığı</label>
+        @Html.TextBoxFor(z => z.Article.Title, null, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Kategori</label>
+        @Html.DropDownListFor(z => z.Article.CategoryId,
+       new SelectList(Model.Categories, "Id", "Name"),
+       "Seçiniz", new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Metni Girin</label>
+        @Html.TextAreaFor(z => z.Article.Text, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Yazar</label>
+        @Html.DropDownListFor(z => z.Article.UserId,
+       new SelectList(Model.Users.ToList(), "Id", "Name"),
+       "Seçiniz", new { @class = "form-control" })
+
+    </div>
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+
+
+    @*<div class="jumbotron bg-warning">
+        <h1>Makale Yaz  <span class="badge badge-primary">Yeni</span></h1>
+        <div class="form-row" style="margin-top:25px; margin-bottom:25px; float:left ">
+            <div class="form-group col-lg-6">
+                <label>Makale Başlığı </label>
+                @Html.TextBoxFor(z => z.Article.Title, null, new { @class = "form-control" })
+            </div>
+            <div class="form-group col-lg-6">
+                <label>Kategori Seçin</label>
+                @Html.DropDownListFor(z => z.Article.CategoryId,
+               new SelectList(Model.Categories, "Id", "Name"),
+               "Seçiniz", new { @class = "form-control" })
+            </div>
+        </div>
+            <div class="form-group ">
+                <label>Metni girin</label>
+                @Html.TextAreaFor(z => z.Article.Text, new { @class = "form-control", @id = "textarea", })
+            </div>
+            <div class="form-group col-lg-6">
+                <label>Yazar Id </label>
+                @Html.TextBoxFor(z => z.Article.UserId, null, new { @class = "form-control" })
+            </div>
+
+            <button type="submit" class="btn btn-primary">EKLE</button>
+        </div>*@
+
+
+
+
+
+
+</form>

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BilgeKoleji.Core\BilgeKoleji.Core.csproj" />
+    <ProjectReference Include="..\BilgeKoleji.DTO\BilgeKoleji.DTO.csproj" />
+    <ProjectReference Include="..\BilgeKoleji.Mapping\BilgeKoleji.Mapping.csproj" />
+    <ProjectReference Include="..\BilgeKoleji.Model\BilgeKoleji.Model.csproj" />
+  </ItemGroup>
+
+</Project>

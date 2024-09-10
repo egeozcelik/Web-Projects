@@ -1,0 +1,51 @@
+﻿@model IEnumerable<BilgeKoleji.DTO.SinifDTO>
+@{
+    ViewData["Title"] = "SinifListele";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>SinifListele</h2>
+
+<div class="portlet-body">
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th> # </th>
+                    <th> SINIF</th>
+                    <th> KALAN KONTENJAN</th>
+
+
+
+                    <th></th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (BilgeKoleji.DTO.SinifDTO sinif in Model)
+                {
+                    <tr>
+                        <th> @sinif.Id </th>
+                        <th> @sinif.Adi</th>
+                        <th> @sinif.Kontenjan</th>
+
+                        <td>
+                            <a class="btn btn-danger btn-sm" asp-action="~/Admin/SinifSil" asp-route-id="@sinif.Id">Sil</a>
+
+                            <a class="btn btn-success btn-sm" asp-action="~/Admin/SinifDuzenle" asp-route-id="@sinif.Id">Düzenle</a>
+
+
+                            <a class="btn btn-blue btn-sm" asp-action="~/Admin/OgrenciListele">Öğrencileri Gör</a>
+
+                        </td>
+                    </tr>
+                }
+
+
+
+
+
+            </tbody>
+        </table>
+    </div>
+</div>

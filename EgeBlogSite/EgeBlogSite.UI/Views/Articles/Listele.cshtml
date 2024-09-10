@@ -1,0 +1,40 @@
+﻿@model IEnumerable<EgeBlogSite.Entity.Article>
+@{
+    ViewBag.Title = "Listele";
+}
+
+
+@*<div style="margin-top:40px;">
+    @foreach (var item in Model.ToList())
+    {
+
+        <div class="card bg-warning " style="width: 18rem; margin-bottom: 10px; margin-right: 10px;float:left">
+            <div class="card-body">
+                <h5 class="card-title">@item.Title</h5>
+                <h6 class="card-subtitle mb-2 text-muted">@item.Category</h6>
+                <p class="card-text">@item.Text</p>
+                <hr />
+                <p class="card-link" style="float:right">Yazar:  @item.User</p>
+                <a href="#" class="card-link"></a>
+            </div>
+        </div>
+    }
+</div>*@
+
+@foreach (var item in Model.ToList())
+{
+    <div class="jumbotron btn-group-sm bg-warning">
+        <div class="container ">
+            <a href="#" class="display-4">@item.Title</a>
+            <br />
+            <p class="lead">@item.Text</p>
+            <hr class="my-4">
+            <br />
+            <p class="lead">Yazar: @item.User</p>
+            <a href="/Articles/Sil/@item.Id" class="btn btn-danger btn-md " style="float:right;margin-left:2px;">Sil</a>
+            <a href="/Articles/Edit/@item.Id" class="btn btn-primary btn-md" style="float:right;" >Düzenle</a>
+
+        </div>
+    </div>
+}
+

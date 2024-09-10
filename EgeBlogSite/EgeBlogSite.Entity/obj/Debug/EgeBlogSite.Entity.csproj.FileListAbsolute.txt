@@ -1,0 +1,11 @@
+C:\Users\Ege\source\repos\EgeBlogSite\EgeBlogSite.Entity\bin\Debug\EgeBlogSite.Entity.dll
+C:\Users\Ege\source\repos\EgeBlogSite\EgeBlogSite.Entity\bin\Debug\EgeBlogSite.Entity.pdb
+C:\Users\Ege\source\repos\EgeBlogSite\EgeBlogSite.Entity\obj\Debug\EgeBlogSite.Entity.dll
+C:\Users\Ege\source\repos\EgeBlogSite\EgeBlogSite.Entity\obj\Debug\EgeBlogSite.Entity.pdb
+C:\Users\Ege\source\repos\EgeBlogSite\EgeBlogSite.Entity\obj\Debug\EgeBlogSite.Entity.csprojAssemblyReference.cache
+C:\Users\Ege\Desktop\EgeBlogSite\EgeBlogSite.Entity\bin\Debug\EgeBlogSite.Entity.dll
+C:\Users\Ege\Desktop\EgeBlogSite\EgeBlogSite.Entity\bin\Debug\EgeBlogSite.Entity.pdb
+C:\Users\Ege\Desktop\EgeBlogSite\EgeBlogSite.Entity\obj\Debug\EgeBlogSite.Entity.csprojAssemblyReference.cache
+C:\Users\Ege\Desktop\EgeBlogSite\EgeBlogSite.Entity\obj\Debug\EgeBlogSite.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Ege\Desktop\EgeBlogSite\EgeBlogSite.Entity\obj\Debug\EgeBlogSite.Entity.dll
+C:\Users\Ege\Desktop\EgeBlogSite\EgeBlogSite.Entity\obj\Debug\EgeBlogSite.Entity.pdb
